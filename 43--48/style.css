@@ -1,0 +1,12 @@
+.counter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    padding-bottom:30px ;
+}
+button{
+    padding:10;
+    margin: 10px;
+}
