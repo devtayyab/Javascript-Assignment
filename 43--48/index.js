@@ -1,7 +1,7 @@
-function delfun(){
-const id=document.getElementsByClassName("row")
-delete id;
-console.log(id)
+function delfun(e){
+ var c= e.parentElement
+c.parentElement.remove()
+console.log(e)
 }
 function increase(){
     var text=document.getElementById("counter")
